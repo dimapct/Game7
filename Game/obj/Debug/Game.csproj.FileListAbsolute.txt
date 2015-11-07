@@ -4,3 +4,9 @@ W:\Repos\Game\Game\bin\Game.pdb
 W:\Repos\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
 W:\Repos\Game\Game\obj\Debug\Game.dll
 W:\Repos\Game\Game\obj\Debug\Game.pdb
+W:\Repos\Game7\Game\bin\Game.dll.config
+W:\Repos\Game7\Game\bin\Game.dll
+W:\Repos\Game7\Game\bin\Game.pdb
+W:\Repos\Game7\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+W:\Repos\Game7\Game\obj\Debug\Game.dll
+W:\Repos\Game7\Game\obj\Debug\Game.pdb

@@ -18,7 +18,6 @@ class Game {
         t.x = 100;
         t.y = 100;
         this.stage.addChild(t);
-        this.stage.update();
         createjs.Ticker.addEventListener("tick", this.update);
     }
 

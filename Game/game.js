@@ -12,10 +12,10 @@ var Game = (function () {
     }
     Game.prototype.run = function () {
         var t = this.imagesFactory.createImage(GameTypes.PLAYERTANK);
-        t.x = 100;
-        t.y = 100;
+        //t.x = 100;
+        //t.y = 100;
         this.stage.addChild(t);
-        this.stage.update();
+        //this.stage.update();
         createjs.Ticker.addEventListener("tick", this.update);
     };
     return Game;

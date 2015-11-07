@@ -28,6 +28,10 @@ class ImagesFactory {
         }
         this.builders[GameTypes.NPCTANK] = function () {
             var image = new createjs.Shape();
+            image.graphics.beginFill("blue").drawRect(0, 0, self.tileSize, self.tileSize);
+            image.graphics.beginFill("black").drawRect(self.tileSize / 2 - (duloSize[0] * self.tileSize) / 2, -self.tileSize * duloSize[1], duloSize[0] * self.tileSize, duloSize[1] * self.tileSize);
+            image.regX = self.tileSize / 2;
+            image.regY = self.tileSize / 2;
             return image;
         }
         this.builders[GameTypes.BULLET] = function () {
