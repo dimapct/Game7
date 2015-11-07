@@ -1,0 +1,9 @@
+﻿enum GameTypes {
+    PLAYERTANK,
+    NPCTANK,
+    BULLET,
+    TILEWATER,
+    TILELAND,
+    TILEWALL,
+    TILEFOREST
+}

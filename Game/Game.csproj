@@ -37,13 +37,15 @@
   <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="application.ts" />
+    <TypeScriptCompile Include="game-types.ts" />
     <TypeScriptCompile Include="game.ts" />
-    <TypeScriptCompile Include="lib\typings\createjs-lib.d.ts" />
-    <TypeScriptCompile Include="lib\typings\createjs.d.ts" />
-    <TypeScriptCompile Include="lib\typings\easeljs.d.ts" />
-    <TypeScriptCompile Include="lib\typings\preloadjs.d.ts" />
-    <TypeScriptCompile Include="lib\typings\soundjs.d.ts" />
-    <TypeScriptCompile Include="lib\typings\tweenjs.d.ts" />
+    <TypeScriptCompile Include="images-factory.ts" />
+    <TypeScriptCompile Include="lib\typings\createjs-lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="lib\typings\createjs\createjs.d.ts" />
+    <TypeScriptCompile Include="lib\typings\easeljs\easeljs.d.ts" />
+    <TypeScriptCompile Include="lib\typings\preloadjs\preloadjs.d.ts" />
+    <TypeScriptCompile Include="lib\typings\tweenjs\tweenjs.d.ts" />
+    <TypeScriptCompile Include="map.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
